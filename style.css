@@ -26,7 +26,7 @@ body {
 
 .left {
     flex: 4;
-    background: url("/resources/halie-west-25xggax4bSA-unsplash.jpg") center/cover no-repeat;
+    background: url("https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA") url("/resources/halie-west-25xggax4bSA-unsplash.jpg") center/cover no-repeat;
     position: relative;
 }
 
