@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse.woff2') format('woff2'),
+        url('Norse.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Norse', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 4;
+    background: url("/resources/halie-west-25xggax4bSA-unsplash.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+/* LOGO IMAGE */
+.logo img {
+    height: 72px;
+}
+
+.right {
+    flex: 6;
+    padding: 60px;
+    background: #f9f9f9
+}
+
+
+.norse-text {
+    font-family: 'Norse', serif;
+    font-size: 64px;
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+/* RIGHT SECTION */
+.right {
+    flex: 6;
+    padding: 60px;
+    background: #f9f9f9;
+}
+
+/* TEXT */
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* FORM */
+.form-box {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box h3 {
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* INVALID → RED */
+input:invalid {
+    border-color: #e63946;
+}
+
+/* VALID → BLUE */
+input:valid {
+    border-color: #1d4ed8;
+}
+
+/* Focus state */
+input:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    border-color: #596D48;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #596D48;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* LOGIN TEXT */
+.login {
+    margin-top: 20px;
+}
+
+.login span {
+    color: #596D48;
+    font-weight: bold;
+    cursor: pointer;
+}
